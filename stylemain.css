@@ -130,7 +130,6 @@ a#rodape{
     text-decoration: none;
     font-weight: normal;
     padding: 0px;
-}
-a#rodape:hover{
     text-decoration: underline;
 }
+
