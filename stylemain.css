@@ -124,3 +124,13 @@ footer > p{
     padding: 6px;
     
 }
+a#rodape{
+    background-color: #1A5C37;
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    padding: 0px;
+}
+a#rodape:hover{
+    text-decoration: underline;
+}
