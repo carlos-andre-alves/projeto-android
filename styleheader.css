@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #DBD8B7;
+    margin: 0px;
+}
+header{
+    height: 150px;
+    max-height: none;
+    background-image: linear-gradient(to bottom, rgb(34, 145, 82), #06351B);
+    box-shadow: 0px 0px 20px 0px black;;
+    padding-top: 25px;
+}
+h1#titulo{
+    color: white;
+    margin: 0px;
+    text-align: center;
+    font-size: 1.8em;
+    margin-top: 20px;
+    
+}
+p#des_titulo{
+    color: white;
+    margin: 15px auto 15px auto;
+    max-width: 500px;
+    padding-top: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+nav{
+    background-color: #06351B;
+    padding: 36px 8px 15px 8px;
+}
+nav > a{
+    color: rgb(101, 218, 151);
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav > a:hover{
+    background-color: rgb(101, 218, 151);
+    color: #06351B;
+    padding: 10px;
+    border-radius: 3px;
+    transition-duration: .3s;
+    
+}
