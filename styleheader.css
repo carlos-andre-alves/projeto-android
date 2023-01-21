@@ -1,5 +1,12 @@
 @charset "UTF-8";
-
+@font-face {
+    font-family: 'Caxo';
+    src: url('fontes/caxo.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Geo';
+    src: url('fontes/geosanslight.ttf') format('truetype');
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #DBD8B7;
@@ -18,14 +25,17 @@ h1#titulo{
     text-align: center;
     font-size: 1.8em;
     margin-top: 20px;
-    
+    font-family: 'Caxo';
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.658);
 }
 p#des_titulo{
     color: white;
     margin: 15px auto 15px auto;
     max-width: 500px;
     padding-top: 1px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Geo';
+    font-weight: bolder;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.897);
     font-size: 1.2em;
     padding-left: 5px;
     padding-right: 5px;
@@ -44,7 +54,8 @@ nav > a{
 nav > a:hover{
     background-color: rgb(101, 218, 151);
     color: #06351B;
-    padding: 10px;
+    padding: 10px 5px 10px 5px;
+    margin-right: -10px;
     border-radius: 3px;
     transition-duration: .3s;
     
